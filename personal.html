@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    
+    <body>
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded",actAge);
+            
+            function actAge() {
+                var hoy = new Date();
+                var actYear = hoy.getFullYear();
+                var actMes = hoy.getMonth();
+                var actDia = hoy.getDate();
+                var age = actYear - 1987;
+    
+                if(actMes < 11){
+                    age--;
+                } else if((actMes == 11) && (actDia < 16)){
+                    age--;
+                }
+                
+                console.log(age);
+                document.getElementById("edad").innerHTML = age;
+            }
+        </script>
+        
+        <div>
+            <ul>
+                <li>Nombre: Leopoldo Eber Aguila Cortez</li>
+                <li>Sexo: Masculino</li>
+                <li>Edad: <span id="edad"></span> años</li>
+                <li>Fecha de nacimiento: 16/12/1987</li>
+                <li>Lugar de nacimiento: México, Distrito Federal</li>
+                <li>Contacto directo:</li>
+                <ul>
+                    <li><a href="https://t.me/Leober12">Telegram</a></li>
+                    <li><a href="mailto:laguilaco@gmail.com">Email</a></li>
+                </ul>
+                <li>Estado civil: Soltero</li>
+            </ul>
+        </div>
+    </body>
+</html>
