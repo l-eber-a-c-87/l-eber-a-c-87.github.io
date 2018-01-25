@@ -1,0 +1,60 @@
+.contIntro {
+    margin: 0;
+    border: none;
+    padding: 0 1em;
+    height: 20%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.present, .contac {
+    margin: 0;
+    border: none;
+    padding: 0;
+    position: relative;
+}
+
+.present {
+    width: 100%;
+    text-align: justify;
+    font-size: 2.1em;
+    font-family: monospace;
+    position: relative;
+}
+
+.contac {
+    width: 100%;
+    text-align: right;
+    font-size: 1em;
+    font-family: fantasy;
+    position: relative;
+}
+
+.contBoto {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+}
+
+.botMen {
+    width: 22.5%;
+    height: 80%;
+    position: relative;
+    font-size: 2.3em;
+    font-family: sans-serif;
+}
+
+.cambios {
+    width: 100%;
+    height: 70%;
+    border: none;
+    position: relative;
+}
